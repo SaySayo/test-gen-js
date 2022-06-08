@@ -1,0 +1,7 @@
+(executable
+ (name "app")
+ (libraries )
+ (modes js)
+ (js_of_ocaml
+  (javascript_files App.js))
+  (preprocess (pps gen_js_api.ppx)))
